@@ -21,7 +21,7 @@ class Stack{
         if(this.length === 0){
             this.top = newNode;
             this.buttom = newNode;
-        } else{
+        } else {
             const headPointer = this.top;
             this.top = newNode;
             this.top.next = headPointer;
